@@ -1,0 +1,207 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+
+header{
+  background: linear-gradient(103deg, rgba(57,57,57,1) 20%, rgba(17,16,16,1) 100%);
+  width: 100%;
+}
+
+nav{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav li{
+  color: #fff;
+  list-style: none;
+  font-size: 32px;
+  padding: 5px;
+  margin-right: 20px;
+}
+nav li a{
+  color: #fff;
+}
+
+nav li a:hover{
+  border-bottom: 2px solid #000;
+  transition: 1s ease-in-out;
+}
+
+
+section h2{
+  font-size: 32px;
+  color: #fff;
+  text-align: center;
+  margin-top: 40px;
+}
+section h1{
+  font-size: 72px;
+  color: #fff;
+  text-align: center;
+}
+
+
+header ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li {
+  font-size: 52px;
+  list-style: none;
+  margin: 30px 20px;
+}
+
+
+ul li a{
+  color: #fff;
+}
+
+
+/* lista de icone redes sociais */
+
+.facebook:hover{
+  color: #3b5998;
+  transform: translateY(-20%)
+}
+.instagram:hover{
+  color: #dd2a7b;
+  transform: translateY(-20%)
+}
+.twitter:hover{
+  color: #00aced;
+  transform: translateY(-20%)
+}
+.github:hover{
+  color: #2D333B;
+  transform: translateY(-20%)
+}
+.linkedin:hover{
+  color: #007bb6;
+  transform: translateY(-20%)
+}
+
+.habilidades{
+  background-color: #000000 ;
+  width: 100%;
+}
+
+.habilidades h3{
+  color: #fff;
+  font-size: 38px;
+  text-align: center;
+  padding: 20px;
+}
+
+
+.habilidades ul {
+  display: flex;
+  justify-content: center;
+}
+
+
+.habilidades ul li{
+  margin-right: 4px;
+}
+
+.habilidades ul li:hover{
+  transform: translateY(-20%)
+}
+
+.habilidades ul li  img{
+   width: 80px;
+   height: 80px;
+}
+.habilidades ul li a img:hover{
+ transform: translateY(-16%);
+}
+
+.portifolio{
+  background: linear-gradient(103deg, rgba(57,57,57,1) 20%, rgba(17,16,16,1) 100%);
+  width: 100%;
+}
+
+.portifolio h3{
+  color: #fff;
+  text-align: center;
+  font-size: 38px;
+}
+
+.portifolio .portifolio-imgs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+
+}
+ .portifolio-imgs a img{
+  width: 300px;
+  height: 250px;
+  margin:  12px;
+}
+
+.sobre{
+  background: #000;
+}
+
+.sobre h3{
+  color: #fff;
+  text-align: center;
+  font-size: 38px;
+}
+
+.sobre .test{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre .test img{
+  width: 400px;
+  height: 400px;
+  margin: 40px 20px ;
+  border-radius: 10px;
+  border: 10px solid #fff;
+}
+
+.sobre .sobre-perfil{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sobre .test p{
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+}
+.sobre .test blockquote{
+  margin-top: 40px;
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+}
+
+
+footer{
+  background: linear-gradient(103deg, rgba(57,57,57,1) 20%, rgba(17,16,16,1) 100%);
+  width: 100%;
+}
+footer p{
+  color: #fff;
+  text-align: center;
+}
+
+
