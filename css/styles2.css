@@ -164,20 +164,48 @@ ul li a{
 }
 
 
-
-.portifolio .portifolio-imgs  a img{
-  max-width: 300px;
-  width: 300px;
-  max-height: 270px;
-  height: 270px;
-  margin:  12px;
-  border: 1px solid #fff;
-  border-radius: 6px;
-  transition: .9s ease;
-  backface-visibility: hidden;
+.container-screen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
 }
-  a:hover{
-  opacity: 0.6;
+.screen {
+  width: 350px;
+  height: 250px;
+  border: 2px solid #fff;
+  box-shadow: rgba(255,255 255, 0.2) 0px 3px 7px;
+  margin-bottom: 20px;
+}
+.s0{
+  background: url("../img/projetos/mago.png");
+  background-position: top;
+  background-size: cover;
+  transition: background-position 8s linear;
+}
+.s1{
+  transition: background-position 11s linear;
+  background: url("../img/projetos/guibarber.png");
+  background-position: top;
+  background-size: cover;
+}
+.s3{
+  transition: background-position 11s linear;
+  background: url("../img/projetos/huge.png");
+  background-position: top;
+  background-size: cover;
+}
+.s4{
+  background: url("../img/projetos/testimonials.png");
+  background-position: top;
+  background-size: cover;
+}
+
+
+.screen:hover {
+  background-position: bottom;
 }
 
 .sobre{
@@ -323,6 +351,10 @@ footer p{
     height: 200px;
     max-height: 200px;
   }
+
+
+
+  
     
   .sobre .test{
       display: flex;
@@ -420,6 +452,8 @@ footer p{
     transform: translateY(0)
   }
 
+
+  
   .portifolio .portifolio-imgs{
     display: flex;
     justify-content: center;
