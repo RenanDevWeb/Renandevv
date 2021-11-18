@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
 a{
   text-decoration: none;
 }
@@ -13,40 +18,66 @@ header{
   width: 100%;
 }
 
+h3{
+  color: #fff;
+  text-align: center;
+  font-size: 38px;
+  padding: 20px;
+  font-weight: 700;
+}
+
+h3::after{
+  content: '';
+  position: relative;
+  width: 200px;
+  height: 1px;
+  background-color: #fff;
+  display: block;
+  margin: 0 auto;
+}
+
+
 nav{
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #01c1d5;
 }
 
-nav li{
-  color: #fff;
+nav  ul li{
+  color: #000;
   list-style: none;
   font-size: 32px;
   padding: 5px;
   margin-right: 20px;
 }
-nav li a{
+nav ul li a{
+  color: #000;
+  font-weight: 400;
+}
+
+nav ul li a:hover{
+  border-bottom: 2px solid #000;
+  transition: 0.5s ease;
   color: #fff;
 }
 
-nav li a:hover{
-  border-bottom: 2px solid #000;
-  transition: 1s ease-in-out;
-}
 
-
-section h2{
+section h1{
   font-size: 32px;
   color: #fff;
   text-align: center;
   margin-top: 40px;
+  letter-spacing: 2px;
+  font-weight: 700;
 }
-section h1{
+section h2{
   font-size: 72px;
   color: #fff;
   text-align: center;
+  letter-spacing: 2px;
+  font-weight: 700;
 }
 
 
@@ -96,12 +127,7 @@ ul li a{
   width: 100%;
 }
 
-.habilidades h3{
-  color: #fff;
-  font-size: 38px;
-  text-align: center;
-  padding: 20px;
-}
+
 
 
 .habilidades ul {
@@ -131,35 +157,39 @@ ul li a{
   width: 100%;
 }
 
-.portifolio h3{
-  color: #fff;
-  text-align: center;
-  font-size: 38px;
-}
 
 .portifolio .portifolio-imgs{
   display: flex;
   justify-content: center;
   align-items: center;
-
-
-
 }
- .portifolio-imgs a img{
+
+
+
+.portifolio .portifolio-imgs  a img{
   width: 300px;
   height: 250px;
   margin:  12px;
+  border: 1px solid #fff;
+  border-radius: 6px;
+  transition: .9s ease;
+  backface-visibility: hidden;
 }
+  a:hover{
+  opacity: 0.6;
+}
+
+
+
+
+
+
 
 .sobre{
   background: #000;
 }
 
-.sobre h3{
-  color: #fff;
-  text-align: center;
-  font-size: 38px;
-}
+
 
 .sobre .test{
     display: flex;
@@ -196,12 +226,179 @@ ul li a{
 
 
 footer{
-  background: linear-gradient(103deg, rgba(57,57,57,1) 20%, rgba(17,16,16,1) 100%);
+  background: #01c1d5;
   width: 100%;
 }
 footer p{
-  color: #fff;
+  color: #000;
   text-align: center;
 }
 
+@media screen and (min-width: 1px) and (max-width: 480px) {
+  h3{
+    font-size: 26px;
+  }
+ 
+  nav ul li{
+    font-size: 22px;
+  }
 
+
+  section h1{
+    font-size: 28px;
+  }
+  section h2{
+    font-size: 42px;
+  }
+  
+  ul li {
+    font-size: 32px;
+  }
+
+
+  .habilidades ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .habilidades ul li:hover{
+    transform: translateY(-20%)
+  }
+  
+  .habilidades ul li  img{
+     width: 60px;
+     height: 60px;
+  }
+
+  .portifolio .portifolio-imgs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  
+  
+  }
+   .portifolio-imgs a img{
+    width: 200px;
+    height: 200px;
+  }
+  
+    
+  .sobre .test{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+  }
+  
+  .sobre .test img{
+    width: 260px;
+    height: 260px;
+  }
+  
+  .sobre .sobre-perfil{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .sobre .test p{
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    padding: 6px;
+  }
+  .sobre .test blockquote{
+    margin-top: 10px;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    padding: 5px;
+  }
+    
+  footer p{
+     font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 968px) {
+  h3{
+    font-size: 30px;
+  }
+ 
+  nav  ul li{
+    font-size: 28px;
+  }
+
+
+  section h1{
+    font-size: 30px;
+  }
+  section h2{
+    font-size: 52px;
+  }
+  
+  ul li {
+    font-size: 42px;
+  }
+
+
+  .habilidades ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  
+  .habilidades ul li  img{
+     width: 80px;
+     height: 80px;
+  }
+
+  .portifolio .portifolio-imgs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+   .portifolio-imgs a img{
+    width: 200px;
+    height: 200px;
+  }
+  
+    
+  .sobre .test{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+    
+  .sobre .sobre-perfil{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .sobre .test p{
+    color: #fff;
+    font-size: 22px;
+    text-align: center;
+    padding: 6px;
+  }
+  .sobre .test blockquote{
+    margin-top: 10px;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    padding: 5px;
+  }
+    
+  footer p{
+     font-size: 16px;
+  }
+}
