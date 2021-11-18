@@ -5,8 +5,7 @@ const  acertarData = () => {
   paragrafoDeData.innerHTML = `Copyright ©${year} TODOS OS DIREITOS RESERVADOS`
 }
 
-
-window.onload = () =>  {
   acertarData();
-};
+
+
 
