@@ -4,9 +4,18 @@
   box-sizing: border-box;
 }
 
+@font-face{
+  font-family: Dancing;
+  src: url("../fonts/static/DancingScript-Regular.ttf");
+}
+@font-face{
+  font-family: Oswald;
+  src: url("../fonts/Oswald/static/Oswald-Medium.ttf");
+}
 
 body{
-  font-family: 'Roboto', sans-serif;
+  font-family: Oswald, sans-serif;
+  font-weight: 100;
 }
 
 a{
@@ -98,27 +107,15 @@ ul li a{
   color: #fff;
 }
 
+ul li a img{
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+}
 
 /* lista de icone redes sociais */
 
-.facebook:hover{
-  color: #3b5998;
-  transform: translateY(-20%)
-}
-.instagram:hover{
-  color: #dd2a7b;
-  transform: translateY(-20%)
-}
-.twitter:hover{
-  color: #00aced;
-  transform: translateY(-20%)
-}
-.github:hover{
-  color: #2D333B;
-  transform: translateY(-20%)
-}
-.linkedin:hover{
-  color: #007bb6;
+.subir:hover{
   transform: translateY(-20%)
 }
 
@@ -180,25 +177,25 @@ ul li a{
   margin-bottom: 20px;
 }
 .s0{
-  background: url("../img/projetos/mago.png");
+  background: url("../img/projetos/mago.webp");
   background-position: top;
   background-size: cover;
   transition: background-position 8s linear;
 }
 .s1{
   transition: background-position 11s linear;
-  background: url("../img/projetos/guibarber.png");
+  background: url("../img/projetos/guibarber.webp");
   background-position: top;
   background-size: cover;
 }
 .s3{
   transition: background-position 11s linear;
-  background: url("../img/projetos/huge.png");
+  background: url("../img/projetos/huge.webp");
   background-position: top;
   background-size: cover;
 }
 .s4{
-  background: url("../img/projetos/testimonials.png");
+  background: url("../img/projetos/testimonials.webp");
   background-position: top;
   background-size: cover;
 }
@@ -247,6 +244,7 @@ ul li a{
   color: #fff;
   text-align: center;
   font-size: 24px;
+  font-family: Dancing;
 }
 
 
@@ -263,11 +261,15 @@ footer p{
   h3{
     font-size: 26px;
   }
- 
-  nav ul li{
-    font-size: 22px;
+
+  nav ul  {
+    margin: 0 2px;
   }
 
+  nav ul li{
+    font-size: 22px;
+    margin: 0 6px;
+  }
 
   section h1{
     font-size: 28px;
@@ -277,26 +279,17 @@ footer p{
   }
   
   ul li {
-    font-size: 32px;
+    font-size: 28px;
   }
 
-  .facebook:hover{
-    transform: translateY(0)
+  ul li a img{
+    width: 40px;
   }
-  .instagram:hover{
-    transform: translateY(0)
-  }
-  .twitter:hover{
-    transform: translateY(0)
-  }
-  .github:hover{
-    transform: translateY(0)
-  }
-  .linkedin:hover{
+
+  .subir:hover{
     transform: translateY(0)
   }
   
-
   .habilidades ul {
     display: flex;
     justify-content: center;
@@ -316,34 +309,12 @@ footer p{
 
 
 
-  .facebook:hover{
-    color: #3b5998;
-    transform: translateY(0)
-  }
-  .instagram:hover{
-    color: #dd2a7b;
-    transform: translateY(0)
-  }
-  .twitter:hover{
-    color: #00aced;
-    transform: translateY(0)
-  }
-  .github:hover{
-    color: #2D333B;
-    transform: translateY(0)
-  }
-  .linkedin:hover{
-    color: #007bb6;
-    transform: translateY(0)
-  }
-
+  
   .portifolio .portifolio-imgs{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-  
-  
   }
    .portifolio-imgs a img{
     width: 200px;
@@ -401,9 +372,10 @@ footer p{
   h3{
     font-size: 30px;
   }
- 
+
+
   nav  ul li{
-    font-size: 28px;
+    font-size: 24px;
   }
 
 
@@ -418,34 +390,22 @@ footer p{
     font-size: 42px;
   }
 
-  .facebook:hover{
+  
+  .subir:hover{
     transform: translateY(0)
   }
-  .instagram:hover{
-    transform: translateY(0)
-  }
-  .twitter:hover{
-    transform: translateY(0)
-  }
-  .github:hover{
-    transform: translateY(0)
-  }
-  .linkedin:hover{
-    transform: translateY(0)
-  }
-
+  
   .habilidades ul {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
   }
-
   
   .habilidades ul li  img{
-    max-width: 80px; 
-    width: 80px;
-     height: 80px;
-     max-height: 80px;
+    max-width: 60px; 
+    width: 60px;
+     height: 60px;
+     max-height: 60px;
   }
 
   .habilidades ul li:hover{
