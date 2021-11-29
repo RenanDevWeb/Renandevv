@@ -1,0 +1,26 @@
+@import '_variables';
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $backgroundcolor-terciary;
+    ul li{
+        color: #000;
+        list-style: none;
+        font-size: 32px;
+        padding: 5px;
+        margin-right: 20px;
+        a{
+            color: $fontcolor-primary;
+            font-weight: 400;
+            &:hover{
+                border-bottom: 2px solid  $fontcolor-primary;
+                transition: 0.5s ease;
+                color: #fff;
+            }
+        }
+
+    }
+    }

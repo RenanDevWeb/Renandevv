@@ -1,0 +1,38 @@
+@import '_variables';
+
+
+.sobre{
+    background: $backgroundcolor-secondary;
+    .test{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            max-width: 350px;
+            width: 350px;
+            max-height: 350px;
+            height: 350px;
+            margin: 40px 20px;
+            border-radius: 10px;
+            border: 10px solid #fff;
+        }
+        p{
+            color: #fff;
+            font-size: 24px;
+            text-align: center;
+        }
+        blockquote{
+            margin-top: 40px;
+            color: #fff;
+            text-align: center;
+            font-size: 24px;
+            font-family: Dancing;
+        }
+    }
+    .sobre-perfil{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

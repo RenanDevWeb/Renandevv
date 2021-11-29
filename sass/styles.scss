@@ -1,0 +1,46 @@
+@import '_variables';
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+a{
+    text-decoration: none;
+}
+
+.subir:hover{
+    transform: translateY(-20%)
+}
+
+
+h3{
+    color: #fff;
+    text-align: center;
+    font-size: 38px;
+    padding: 20px;
+    font-weight: 700;
+  }
+  
+  h3::after{
+    content: '';
+    position: relative;
+    width: 200px;
+    height: 1px;
+    background-color: #fff;
+    display: block;
+    margin: 0 auto;
+  }
+
+
+@import '_navbar'; 
+@import '_sectionTitle';
+@import '_header';
+@import '_habilidades';
+@import '_portifolio';
+@import '_sobre';
+@import '_footer';
+@import 'mediaQueries/_queries';

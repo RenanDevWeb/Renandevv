@@ -1,0 +1,20 @@
+{
+  "name": "Renandevv",
+  "version": "1.0.0",
+  "description": "Repositorie was created for my personal portifolio and links site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RenanDevWeb/Renandevv.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RenanDevWeb/Renandevv/issues"
+  },
+  "homepage": "https://github.com/RenanDevWeb/Renandevv#readme"
+}

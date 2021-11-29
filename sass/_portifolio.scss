@@ -1,0 +1,54 @@
+@import '_variables';
+
+.portifolio{
+    background: $backgroundcolor-primary;
+    width: 100%;
+    .portifolio-imgs{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-screen{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+}
+    .screen{
+        width: 350px;
+        height: 250px;
+        border: 2px solid #fff;
+
+        margin-bottom: 20px;
+        &:hover{
+            background-position: bottom;
+        }
+    }
+    .s0 {
+        background: url(../img/projetos/mago.webp);
+        background-position: top;
+        background-size: cover;
+        transition: background-position 8s linear;
+      }
+      .s1 {
+        transition: background-position 11s linear;
+        background: url(../img/projetos/guibarber.webp);
+        background-position: top;
+        background-size: cover;
+      }
+      .s3 {
+        transition: background-position 11s linear;
+        background: url(../img/projetos/huge.webp);
+        background-position: top;
+        background-size: cover;
+      }
+      .s4 {
+        background: url(../img/projetos/testimonials.webp);
+        background-position: top;
+        background-size: cover;
+      }
+
+}
