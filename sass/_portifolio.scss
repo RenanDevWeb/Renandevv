@@ -21,7 +21,7 @@
         width: 350px;
         height: 250px;
         border: 2px solid #fff;
-
+        border-radius: 8px;
         margin-bottom: 20px;
         &:hover{
             background-position: bottom;
@@ -31,7 +31,7 @@
         background: url(../img/projetos/mago.webp);
         background-position: top;
         background-size: cover;
-        transition: background-position 8s linear;
+        transition: background-position 10s linear;
       }
       .s1 {
         transition: background-position 11s linear;
@@ -46,9 +46,10 @@
         background-size: cover;
       }
       .s4 {
-        background: url(../img/projetos/testimonials.webp);
+        background: url(../img/projetos/adietaketo.webp);
         background-position: top;
         background-size: cover;
+        transition:  background-position 16s linear;
       }
 
 }
