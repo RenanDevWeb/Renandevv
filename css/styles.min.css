@@ -214,6 +214,10 @@ header ul li a img {
   justify-content: center;
   align-items: center;
 }
+.sobre .sobre-perfil p {
+  text-align: center;
+  padding: 1em;
+}
 
 footer {
   background-color: #01c1d5;
