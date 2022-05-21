@@ -46,6 +46,12 @@
         background-size: cover;
       }
       .s4 {
+        background: url(../img/projetos/landigPage.webp);
+        background-position: top;
+        background-size: cover;
+        transition:  background-position 20s linear;
+      }
+      .s5 {
         background: url(../img/projetos/adietaketo.webp);
         background-position: top;
         background-size: cover;

@@ -31,19 +31,37 @@
 .container1 .div1  .card img:hover{
        opacity: 0.7;
 }
-
-
- 
-
     }
+</style>
 
+    <script>
+
+        function verificaUrl(url){
+    regexURL = "((http|https)://)(www.)?"
+    + "[a-zA-Z0-9@:%._\\+~#?&//=]"
+    + "{2,256}\\.[a-z]"
+    + "{2,6}\\b([-a-zA-Z0-9@:%"
+    + "._\\+~#?&//=]*)";
+  
+   
+  var regexVerificada =  url.match(regexURL)
+ 
+if (isValidURL(url) == true) {
+  System.out.println("Yes");
+}
+else
+  System.out.println("NO");
+}
+
+
+    </script>
 
 </style>
 
 </head>
 
 <body >
-<main>
+<!-- <main>
     <h2>Projetos</h2>
 
 
@@ -85,16 +103,49 @@
                 <a href="https://renandevweb.github.io/testimonials-grid-section-main/"> <h5 class="card-title">testimonials</h5></a>
             </div>
 
-</div>  
+</div>   -->
 
 
+^contato(?:(?!^.com$).)+^.com$
     
-    
-
+  <div>
+      texto1
+      <br>
+      texto2
+      <br>
+      texto
+      <br>
+      email: contato@email.com phone: 11-98725-5541
+  </div>
          
+function verificaUrl(url){
+    String regexURL = "((http|https)://)(www.)?"
+    + "[a-zA-Z0-9@:%._\\+~#?&//=]"
+    + "{2,256}\\.[a-z]"
+    + "{2,6}\\b([-a-zA-Z0-9@:%"
+    + "._\\+~#?&//=]*)";
+  
+   
+  url.match(regexURL)
+  = "https://www.geeksforgeeks.org";
+if (isValidURL(url) == true) {
+  System.out.println("Yes");
+}
+else
+  System.out.println("NO");
+}
 
+
+}
             
+  String regex = "((http|https)://)(www.)?"
+  + "[a-zA-Z0-9@:%._\\+~#?&//=]"
+  + "{2,256}\\.[a-z]"
+  + "{2,6}\\b([-a-zA-Z0-9@:%"
+  + "._\\+~#?&//=]*)";
 
+
+  
 
              
 

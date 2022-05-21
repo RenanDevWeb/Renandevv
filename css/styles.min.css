@@ -172,6 +172,13 @@ header ul li a img {
   transition: background-position 20s linear;
 }
 
+.s5 {
+  background: url(../img/projetos/landigPage.webp);
+  background-position: top;
+  background-size: cover;
+  transition:  background-position 12s linear;
+}
+
 .sobre {
   background: #000000;
 }
