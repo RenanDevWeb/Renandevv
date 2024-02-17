@@ -20,15 +20,7 @@ h3 {
   font-weight: 700;
 }
 
-h3::after {
-  content: "";
-  position: relative;
-  width: 200px;
-  height: 1px;
-  background-color: #fff;
-  display: block;
-  margin: 0 auto;
-}
+
 
 /* nav {
   width: 100%;
@@ -56,7 +48,8 @@ nav ul li a:hover {
 
 
 header {
-  background: linear-gradient(103deg, #393939 20%, #111010 100%);
+  background: #56704C;
+
   width: 100%;
 
 }
@@ -72,7 +65,7 @@ header ul li {
   margin: 30px 20px;
 }
 header ul li a {
-  color: #ffffff;
+  color: #1A1A1A;
 }
 header ul li a img {
   width: 40px;
@@ -89,7 +82,7 @@ section{
 
 section h1 {
   font-size: 42px;
-  color: #ffffff;
+  color: #1A1A1A;
   text-align: center;
   margin-bottom: 14px;
   letter-spacing: 2px;
@@ -97,7 +90,7 @@ section h1 {
 }
 section h2 {
   font-size: 32px;
-  color: #ffffff;
+  color: #1A1A1A;
   text-align: center;
   letter-spacing: 2px;
   font-weight: 700;
@@ -105,7 +98,7 @@ section h2 {
 
 
 .habilidades {
-  background-color: #000000;
+  background-color: #1A1A1A;
   width: 100%;
 }
 .habilidades ul {
@@ -131,8 +124,12 @@ section h2 {
 }
 
 .portifolio {
-  background: linear-gradient(103deg, #393939 20%, #111010 100%);
+  background: #56704C;
+  color: #1A1A1A;
   width: 100%;
+}
+.portifolio h3{
+  color: #1A1A1A;
 }
 .portifolio .portifolio-imgs {
   display: flex;
@@ -150,7 +147,7 @@ section h2 {
 .portifolio .screen {
   width: 350px;
   height: 250px;
-  border: 2px solid #fff;
+  border: 2px solid #1A1A1A;
   border-radius: 8px;
   margin-bottom: 20px;
 }
@@ -190,53 +187,54 @@ section h2 {
 }
 
 .sobre {
-  background: #000000;
+  background: #1A1A1A;
 }
-.sobre .test {
+
+.sobre .sobre-img{
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: justify;
+  
 }
-.sobre .test img {
+.sobre .sobre-img img{
   max-width: 350px;
   width: 350px;
   max-height: 350px;
   height: 350px;
-  margin: 40px 20px;
+  margin: 15px 20px ;
   border-radius: 10px;
-  border: 10px solid #fff;
+  border: 1px solid #1A1A1A;
+ 
 }
-.sobre .test p {
+.sobre .sobre-img p{
   color: #fff;
   font-size: 24px;
-  text-align: center;
-}
-.sobre .test blockquote {
-  margin-top: 40px;
-  color: #fff;
-  text-align: center;
-  font-size: 24px;
-  font-family: Dancing;
-}
-.sobre .sobre-perfil {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.sobre .sobre-perfil p {
-  text-align: center;
+  text-align: left;
   padding: 1em;
 }
 
+.efeito{
+  font-size: 34px;
+  text-align: center;
+}
+
+
 footer {
-  background-color: #01c1d5;
+  background-color:  #56704C;
   width: 100%;
 }
 footer p {
-  color: #000000;
+  color: #1A1A1A;
   text-align: center;
 }
+
+
+
+
+
+
+/* responsivo */
 
 @media screen and (min-width: 1px) and (max-width: 480px) {
   h3 {
