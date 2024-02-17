@@ -221,11 +221,12 @@ section h2 {
 
 
 footer {
-  background-color:  #56704C;
+  background-color:  #1A1A1A;
   width: 100%;
 }
 footer p {
-  color: #1A1A1A;
+  
+  color: #fff;
   text-align: center;
 }
 
@@ -251,11 +252,11 @@ footer p {
   }
 
   ul li {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   ul li a img {
-    width: 20px;
+    width: 40px;
   }
 
   .subir:hover {
@@ -310,10 +311,10 @@ footer p {
   }
 
   .sobre .sobre-img img {
-    max-width: 160px;
-    width: 160px;
-    height: 160px;
-    max-height: 160px;
+    max-width: 220px;
+    width: 220px;
+    height: 220px;
+    max-height: 220px;
   }
 
   .sobre .sobre-perfil {
@@ -325,7 +326,7 @@ footer p {
 
   .sobre .sobre-perfil p {
     color: #fff;
-    font-size: 14px;
+    font-size: 16px;
     text-align: center;
     padding: 6px;
   }
