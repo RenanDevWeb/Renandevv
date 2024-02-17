@@ -1,11 +1,1 @@
-const  acertarData = () => {
-  const paragrafoDeData = document.getElementById("date")
-  const data = new Date()
-  const year =  data.getFullYear()
-  paragrafoDeData.innerHTML = `Copyright ©${year} TODOS OS DIREITOS RESERVADOS`
-}
-
-acertarData();
-
-
-
+const acertarData=()=>{let e=document.getElementById("date"),t=new Date,a=t.getFullYear();e.innerHTML=`Copyright \xa9${a} TODOS OS DIREITOS RESERVADOS`};acertarData();
