@@ -155,32 +155,22 @@ section h2 {
   background-position: bottom;
 }
 .portifolio .s0 {
-  background: url(../img/projetos/mago.webp);
+  background: url(../img/projetos/mago-min.webp);
   background-position: top;
   background-size: cover;
   transition: background-position 10s linear;
 }
-.portifolio .s1 {
-  transition: background-position 11s linear;
-  background: url(../img/projetos/guibarber.webp);
-  background-position: top;
-  background-size: cover;
-}
-.portifolio .s3 {
-  transition: background-position 11s linear;
-  background: url(../img/projetos/huge.webp);
-  background-position: top;
-  background-size: cover;
-}
+
+
 .portifolio .s4 {
-  background: url(../img/projetos/adietaketo.webp);
+  background: url(../img/projetos/adietaketo-min.webp);
   background-position: top;
   background-size: cover;
   transition: background-position 20s linear;
 }
 
 .s5 {
-  background: url(../img/projetos/landigPage.webp);
+  background: url(../img/projetos/landigPage-min.webp);
   background-position: top;
   background-size: cover;
   transition:  background-position 14s linear;
