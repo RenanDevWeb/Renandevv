@@ -35,7 +35,7 @@ Repositorie was created for my personal portifolio and links site
 
 ## ✒️ Autores
 
- **Renan Salmazio** - *Desenvolvedor* - [Desenvolvedor](https://github.com/RenanDevWebl)
+ **Renan Salmazio** - *Desenvolvedor* - [Desenvolvedor](https://github.com/RenanDevWeb)
 
 
 
