@@ -8,9 +8,7 @@ a {
   text-decoration: none;
 }
 
-.subir:hover {
-  transform: translateY(-20%);
-}
+
 
 h3 {
   color: #fff;
@@ -19,33 +17,6 @@ h3 {
   padding: 20px;
   font-weight: 700;
 }
-
-
-
-/* nav {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #01c1d5;
-}
-nav ul li {
-  color: #000;
-  list-style: none;
-  font-size: 32px;
-  padding: 5px;
-  margin-right: 20px;
-}
-nav ul li a {
-  color: #000000;
-  font-weight: 400;
-}
-nav ul li a:hover {
-  border-bottom: 2px solid #000000;
-  transition: 0.5s ease;
-  color: #fff;
-} */
-
 
 header {
   background: #9BAF88;
@@ -109,18 +80,6 @@ section h2 {
 .habilidades ul li {
   margin: 20px 10px;
   list-style: none;
-}
-.habilidades ul li:hover {
-  transform: translateY(-20%);
-}
-.habilidades ul li img {
-  max-width: 80px;
-  width: 80px;
-  min-height: 80px;
-  height: 80px;
-}
-.habilidades ul li img:hover {
-  transform: translateY(-16%);
 }
 
 .portifolio {
@@ -264,10 +223,10 @@ footer p {
   }
 
   .habilidades ul li img {
-    max-width: 40px;
-    width: 40px;
-    max-height: 40px;
-    height: 40px;
+    max-width: 100px;
+    width: 100px;
+    max-height: 60px;
+    height: 60px;
   }
 
   .portifolio .portifolio-imgs {
@@ -278,7 +237,7 @@ footer p {
   }
 
   .portifolio-imgs a img {
-    width: 100px;
+    width: 60px;
     max-width: 100px;
     height: 100px;
     max-height: 100px;
