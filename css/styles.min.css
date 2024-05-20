@@ -82,6 +82,11 @@ section h2 {
   list-style: none;
 }
 
+.habilidades ul li img{
+  border-radius: 2px;
+  border: 1px groove #2e2d2d;
+}
+
 
 .portifolio {
   background: #9BAF88;
