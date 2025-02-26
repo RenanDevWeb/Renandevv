@@ -175,6 +175,35 @@ section h2 {
   padding: 1em;
 }
 
+/* Estilos para o botão */
+.btn {
+  display: inline-block;            /* Faz o botão ser um bloco inline, mantendo o formato */
+  padding: 12px 24px;               /* Espaçamento interno do botão */
+  background-color: #25D366;        /* Cor de fundo do botão (verde do WhatsApp) */
+  color: white;                     /* Cor do texto */
+  font-size: 16px;                  /* Tamanho da fonte */
+  font-weight: bold;                /* Deixa a fonte em negrito */
+  text-decoration: none;            /* Remove sublinhado padrão de links */
+  border-radius: 8px;               /* Bordas arredondadas */
+  transition: all 0.3s ease;        /* Efeito suave para transições */
+  text-align: center;               /* Alinha o texto no centro */
+}
+
+.btn:hover {
+  background-color: #128C7E;        /* Cor de fundo ao passar o mouse (verde mais escuro do WhatsApp) */
+  transform: scale(1.05);            /* Aumenta levemente o tamanho do botão */
+}
+
+.btn:active {
+  background-color: #075E54;        /* Cor mais escura quando o botão é pressionado (tom mais escuro) */
+  transform: scale(1);               /* Desfaz o aumento de tamanho */
+}
+
+.btn:focus {
+  outline: none;                    /* Remove o contorno padrão do foco */
+  box-shadow: 0 0 0 3px rgba(37, 211, 102, 0.5); /* Adiciona um brilho ao focar no botão */
+}
+
 .efeito{
   font-size: 34px;
   text-align: center;
