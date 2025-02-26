@@ -140,6 +140,12 @@ section h2 {
   background-size: cover;
   transition:  background-position 14s linear;
 }
+.s6 {
+  background: url(../img/projetos/newsletter.webp);
+  background-position: top;
+  background-size: cover;
+  transition:  background-position 10s linear;
+}
 
 .sobre {
   background: #1A1A1A;
