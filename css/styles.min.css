@@ -141,7 +141,7 @@ section h2 {
   transition:  background-position 14s linear;
 }
 .s6 {
-  background: url(https://github.com/RenanDevWeb/Renandevv/blob/refs/heads/main/img/projetos/newsletter.webp);
+  background: url("https://github.com/RenanDevWeb/Renandevv/blob/refs/heads/main/img/projetos/newsletter.webp");
   background-position: top;
   background-size: cover;
   transition:  background-position 10s linear;
