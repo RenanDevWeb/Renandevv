@@ -146,6 +146,12 @@ section h2 {
   background-size: cover;
   transition:  background-position 10s linear;
 }
+.s7 {
+  background: url(../img/projetos/galeria.webp);
+  background-position: top;
+  background-size: cover;
+  transition:  background-position 8s linear;
+}
 
 .sobre {
   background: #1A1A1A;
@@ -298,6 +304,7 @@ footer p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-left: 8px;
   }
 
   .sobre .sobre-img img {
