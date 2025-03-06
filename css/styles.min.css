@@ -164,6 +164,12 @@ section h2 {
   background-size: cover;
   transition:  background-position 8s linear;
 }
+.s10 {
+  background: url(../img/projetos/spotifyclone.webp);
+  background-position: top;
+  background-size: cover;
+  transition:  background-position 8s linear;
+}
 
 .sobre {
   background: #1A1A1A;
