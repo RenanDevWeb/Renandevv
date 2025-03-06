@@ -15,7 +15,7 @@ Repositorie was created for my personal portifolio and links site
 
 
 
-![site](./img/site-min.webp)
+![site](./img/site.png)
 
 
 
